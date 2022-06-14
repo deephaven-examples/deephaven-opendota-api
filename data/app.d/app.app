@@ -1,0 +1,8 @@
+type=script
+scriptType=python
+enabled=True
+id=opendota
+name=Deephaven and the OpenDota API
+file_0=./App_Mode_Init.py
+file_1=./App_Mode_Heroes.py
+file_2=./App_Mode_Items.py
