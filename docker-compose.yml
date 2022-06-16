@@ -2,7 +2,7 @@ version: "3.4"
 
 services:
   server:
-    build: .
+    image: deephaven-examples/deephaven-opendota-api:latest
     expose:
       - '8080'
     volumes:
