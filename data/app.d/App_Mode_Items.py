@@ -86,7 +86,7 @@ def get_dota2_items():
                 "ImageURL = (java.lang.String)ImageURL"])
 
         todays_date = datetime.datetime.now().strftime("%Y-%m-%d")
-        fname = f"/data/parquet/heroes_{todays_date}.parquet"
+        fname = f"/data/parquet/items_{todays_date}.parquet"
         dhpq.write(Dota2.Items.table, fname, compression_codec_name="GZIP")
 
     else:

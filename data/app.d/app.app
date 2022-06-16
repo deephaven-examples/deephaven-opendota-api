@@ -7,3 +7,5 @@ file_0=./App_Mode_Init.py
 file_1=./App_Mode_GameModes.py
 file_2=./App_Mode_Heroes.py
 file_3=./App_Mode_Items.py
+file_4=./App_Mode_Chat.py
+file_5=./Get_Match_Details.py

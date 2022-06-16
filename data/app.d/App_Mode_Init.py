@@ -9,5 +9,6 @@ class D2:
         self.Heroes = D2Constant()
         self.GameModes = D2Constant()
         self.Items = D2Constant()
+        self.Chatwheel = D2Constant()
 
 Dota2 = D2()
