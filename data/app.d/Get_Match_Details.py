@@ -297,7 +297,7 @@ class D2D:
 class D2M:
     def __init__(self, id):
         self.id = id
-        self.details = None
+        self.Details = None
         self.Players = None
         self.teamfights = None
         self.chat = None
