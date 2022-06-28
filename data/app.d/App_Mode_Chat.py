@@ -68,7 +68,7 @@ def get_dota2_chatwheel():
         fname_write_date = pq_fname.split("_")[1].split(".")[0]
         print(f"Found local chatwheel data. It was written on {fname_write_date}.")
 
-        Dota2.Chatwheel.table = dhpq.reqd(f"/data/parquet/{pq_fname}")
+        Dota2.Chatwheel.table = dhpq.read(f"/data/parquet/{pq_fname}")
         Dota2.Chatwheel.dataframe = dhp.to_pandas(Dota2.Chatwheel.table)
         Dota2.Chatwheel.json = Dota2.Chatwheel.dataframe.to_dict("records")
 
