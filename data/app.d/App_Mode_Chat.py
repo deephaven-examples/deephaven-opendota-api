@@ -25,7 +25,7 @@ def get_dota2_chatwheel():
 
     parquet_data_exists = False
     ls_parquet = os.listdir("/data/parquet")
-    if any(["chatwheels" in item for item in ls_parquet]):
+    if any(["chatwheel" in item for item in ls_parquet]):
         parquet_data_exists = True
         for idx, file in enumerate(ls_parquet):
             if "chatwheel" in file:
