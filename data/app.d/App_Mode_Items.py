@@ -53,7 +53,7 @@ def get_dota2_items():
             except KeyError:
                 name = "No Name"
             if "hint" in item.keys():
-                tooltip = "".join([thing for thing in a if not(thing.isspace())])
+                tooltip = "".join([thing for thing in item if not(thing.isspace())])
             else:
                 tooltip = ""
             img_url = item["img"]
