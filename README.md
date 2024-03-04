@@ -83,6 +83,12 @@ API key support will be added in a future update.  With an API key, the usage li
 - Unlimited/month
 - $.0001/request over the free usage limit, rounded up to the nearest cent
 
+## Note
+
+The code in this repository is built for Deephaven Community Core v0.13.0. No guarantee of forward or backward compatibility is given.
+
+Additionally, the OpenDOTA API has changed since this code was built, and no guarantee of forward or backward compatibilty can be given.
+
 ## Disclaimer
 
 Deephaven makes no claim to the validity or authenticity of the data provided by the OpenDOTA API.  Deephaven makes no claim of ownership of the data found on the OpenDOTA API, and will not provide any of its data in this repository.
